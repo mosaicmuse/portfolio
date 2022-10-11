@@ -111,3 +111,20 @@ p {
 .vertical-spacing {
   margin: 30px 0;
 }
+
+@media (max-width: 768px) {
+  .outer {
+    padding: 0 10px;
+  }
+  .navigation-links {
+    margin-top: 20px;
+  }
+  h1,
+  h3 {
+    font-size: 36px;
+  }
+  h2 {
+    font-size: 18px;
+    padding-top: 20px;
+  }
+}
